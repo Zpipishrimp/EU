@@ -46,6 +46,13 @@ py E:\Users\Administrator\Desktop\script\euserv\gmail_api.py 你的邮箱用户�
 #### 2-6 包文件中会自动生成一个文件"token_你的email.json"
 
 ## 部署至vps
+### 打开vps，root目录下新建euserv文件夹
+#### 将`credentials.json`、`eu.py`、'gmail_api.py'、`token_你的email.json`放入vps euserv文件夹
+```
+wget https://raw.githubusercontent.com/Zpipishrimp/EU/blob/main/gmail_api.py
+wget https://raw.githubusercontent.com/Zpipishrimp/EU/blob/main/eu.py
+```
+
 ### 修改 eu.py(26-30行)
 ```
 TG_BOT_TOKEN = '你的TG_BOT_TOKEN'
@@ -57,9 +64,6 @@ PASSWORD = os.environ.get("EUSERV_PASSWORD", "德鸡密码")
 TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "TrueCaptcha网站获取的userid")
 TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "TrueCaptcha网站获取的apikey")
 ```
-
-### 打开vps，root目录下新建euserv文件夹
-#### 将`credentials.json`、`eu.py`、'gmail_api.py'、`token_你的email.json`放入vps euserv文件夹
 ### 执行以下命令
 ```
 apt install python3-pip //安装python3,已装跳过
