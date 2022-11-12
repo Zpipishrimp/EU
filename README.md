@@ -6,7 +6,7 @@
 # 部署流程
 
 ## 一、注册[TrueCaptcha](https://truecaptcha.org/)
-前往[页面](https://truecaptcha.org/profile.html)获取`userid`和`apikey`
+前往[页面](https://truecaptcha.org/profile.html)获取`userid`和`apikey`（每日免费100次）
 
 ## 二、TG机器人注册
 按照[小白教程](https://www.haianet.cn/334.html)获取`Token`和`Id`
