@@ -49,8 +49,8 @@ py E:\Users\Administrator\Desktop\script\euserv\gmail_api.py 你的邮箱用户�
 ### 打开vps，root目录下新建euserv文件夹
 #### 将`credentials.json`、`eu.py`、'gmail_api.py'、`token_你的email.json`放入vps euserv文件夹
 ```
-wget https://raw.githubusercontent.com/Zpipishrimp/EU/blob/main/gmail_api.py
-wget https://raw.githubusercontent.com/Zpipishrimp/EU/blob/main/eu.py
+wget https://raw.githubusercontent.com/Zpipishrimp/EU/main/gmail_api.py
+wget https://raw.githubusercontent.com/Zpipishrimp/EU/main/eu.py
 ```
 
 ### 修改 eu.py(26-30行)
