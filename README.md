@@ -71,6 +71,7 @@ pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth
 pip install beautifulsoup4 //报错No module named 'bs4'时输入，否则跳过
 cd /root/euserv
 python3 eu.py
+你可能需要执行两次python3 eu.py
 ```
 ###成功图
 <center>
